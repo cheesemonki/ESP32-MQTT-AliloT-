@@ -32,10 +32,10 @@ PASSWORD = "88888888"  # 填写自己的WIFI密码
 修改以下代码中的 `SERVER`, `CLIENT_ID`, `username`, 和 `password` 为您自己的MQTT服务器地址、客户端ID、用户名和密码。
 
 ```python
-SERVER = 'a1pwuTFIvOu.iot-as-mqtt.cn-shanghai.aliyuncs.com'  # mqtt服务器地址
-CLIENT_ID = "a1pwuTFIvOu.esp32|securemode=2,signmethod=hmacsha256,timestamp=1721472757040|"  # clientId
-username = 'esp32&a1pwuTFIvOu'  # 用户名
-password = '3977392bf4de64055c2fd7dbac47914a83fda080134daeb3e330fd83d0f54b70'  # 密码
+SERVER = 'a1pwuxxxxxxiot-as-xxxxxxxhai.aliyuncs.com'  # mqtt服务器地址
+CLIENT_ID = "a1xxxxxxxxxOu.esp32|securemode=2,signxxxx=hmacsha256,timestaxxxxxxxx72757040|"  # clientId
+username = 'esp32&a1pxxxxxxxxvOu'  # 用户名
+password = '397xxxxxx4055c2fd7dxxxxxa83fdaxxxxxx34daxxxxxx0fd83dxxxxxx0'  # 密码
 ```
 
 ### 运行项目
