@@ -1,4 +1,5 @@
-# ESP32-MQTT-AliloT-
+
+# ESP32 MQTT 项目
 
 ## 项目简介
 
@@ -24,7 +25,23 @@
 ```python
 SSID = "MONKI"  # 填写自己的WIFI名称
 PASSWORD = "88888888"  # 填写自己的WIFI密码
-SERVER = 'xxxxxxxxxxxxxxxx'  # mqtt服务器地址
-CLIENT_ID = "xxxxxxxxxxxx"  # clientId
-username = 'xxxxxxxxxx'  # 用户名
-password = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'  # 密码
+```
+
+### MQTT配置
+
+修改以下代码中的 `SERVER`, `CLIENT_ID`, `username`, 和 `password` 为您自己的MQTT服务器地址、客户端ID、用户名和密码。
+
+```python
+SERVER = 'a1pwuTFIvOu.iot-as-mqtt.cn-shanghai.aliyuncs.com'  # mqtt服务器地址
+CLIENT_ID = "a1pwuTFIvOu.esp32|securemode=2,signmethod=hmacsha256,timestamp=1721472757040|"  # clientId
+username = 'esp32&a1pwuTFIvOu'  # 用户名
+password = '3977392bf4de64055c2fd7dbac47914a83fda080134daeb3e330fd83d0f54b70'  # 密码
+```
+
+### 运行项目
+
+将 `main.py` 文件上传到ESP32开发板并运行。程序将自动连接WiFi，并连接到MQTT服务器。LED灯的状态可以通过MQTT消息进行控制。
+
+### 其他说明
+
+如需更多信息，请参阅项目代码中的注释。
